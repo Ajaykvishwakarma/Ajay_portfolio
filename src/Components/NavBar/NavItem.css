@@ -1,0 +1,19 @@
+.navItem {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  
+  transition: all 250ms cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
+}
+
+.navItem:hover {
+  color: var(--purple);
+  transform: scale(1.1);
+}
+
+@media only screen and (max-width: 768px) {
+  .navItem {
+    margin: 15px;
+    font-size: 20px;
+  }
+}
