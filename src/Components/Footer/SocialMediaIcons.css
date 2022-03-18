@@ -10,6 +10,14 @@
   border: none;
   margin: 20px auto;
 }
+/* 
+.hr {
+  width: 35vw;
+  height: 2px;
+  background-color: var(--purple);
+  border: none;
+  margin: 20px auto;
+} */
 
 .footer__icon {
   color: #5b5b5b;
