@@ -1,5 +1,5 @@
 import { HashLink } from "react-router-hash-link";
-
+import "./Logo.css"
 function Logo({ clicked, setClicked }) {
   return (
     <div className="header__logo">
@@ -12,7 +12,7 @@ function Logo({ clicked, setClicked }) {
           }
         }}
       >
-        <img src="/images/logo.png" alt="Brand Logo" width="85" height="67" margin-bottom="5px" />
+        <img src="/images/logo.png" alt="Brand Logo" width="90" height="71"  id="logoID" />
       </HashLink>
     </div>
   );

@@ -20,11 +20,20 @@ cursor: pointer;
 
 #head{
  margin-right: 150px;
-
- 
-
 }
+@media only screen and (max-width: 768px) {
+  .about_1 {
 
+    padding-top: 5vh;
+    flex-direction: column;
+    align-items: center;
+  }
+ #head{
+   margin: auto;
+   text-align: center;
+   margin-bottom: 50px;
+ }
+}
 
 .footer__icon {
   color: #5b5b5b;

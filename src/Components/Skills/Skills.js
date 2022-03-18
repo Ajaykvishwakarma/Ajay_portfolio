@@ -6,10 +6,11 @@ import LightWave from "../Waves/LightWave";
 function Skills() {
   return (
     <div id="skills">
-    <div className="about_1">
-      <h2 id="head">Skills</h2>
-    <div className="Icons">
       
+    <div className="about_1">
+      <div id="headDiv"> <h2 id="head">Skills</h2></div>
+    <div className="Icons">
+    
       
       <div className="iconId">
         <DiHtml5 className="socialMediaIcons__github footer__icon" size={70} />

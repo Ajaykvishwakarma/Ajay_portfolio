@@ -15,7 +15,7 @@ function About() {
       <div data-aos="fade-right" className="about__text">
         <h2 className="about__heading">About Me</h2>
         <p className="about__body">
-          Hello! My name is Ajay Vishwakarma and I am a Full Stack Web Developer
+          Hello! My name is Ajay Vishwakarma and I am a Full Stack Web Developer,
           Student attending the{" "}
           <span className="about__specialText">Masai School.</span>{" "}
           Currently, I am interested in{" "}

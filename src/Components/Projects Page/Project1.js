@@ -10,6 +10,7 @@ function Project1({ id }) {
 
   return (
     <article id={id} className="project light">
+       <h2 className="project__header">Projects</h2>
       <div className="project__main">
         
         {isDesktopOrLaptop ? (
@@ -32,7 +33,7 @@ function Project1({ id }) {
           <h3 className="project__title">Levi's in</h3>
           <p className="project__description project__body">
             An <span className="project__specialText">E-commerce website </span> built to
-            Bying Clothing items. Allows users to{" "}
+            Buying Clothing items. Allows users to{" "}
             <span className="project__specialText">
               Order the products that are required
             </span>
@@ -40,16 +41,12 @@ function Project1({ id }) {
             checkoff all Products. An enjoyable{" "}
             <span className="project__specialText">Store locator</span> is
             available for all users so they can view their{" "}
-            <span className="project__specialText">Levi's Store  in India</span>
-            from the past or look to the future and see what they need to take.
-            Finally, users are also given a{" "}
-            <span className="project__specialText">map view</span> so that they
-            have no problem finding any nearby pharmacies or hostiptals if
-            needed.
+            <span className="project__specialText">Levi's Store  in India. </span>
+            From this Website, users can buy all Levi's products that are available on our website.{" "}
+            <span className="project__specialText">Products Checkout,</span> Users can pay through any card.
           </p>
           <p className="project__tech project__body">
-            &gt; React Native · Firebase · Firestore · Google Maps API · Google
-            Autocomplete API
+            &gt; Expressjs · JavaScript · NPM package · Google Auth · HTML . CSS
           </p>
           <a
             className="project__sourceCode"

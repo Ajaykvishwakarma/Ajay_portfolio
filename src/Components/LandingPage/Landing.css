@@ -54,6 +54,7 @@
   .landing__hr {
     transition: all 1s ease-out;
     width: 80vw;
+    margin-top: 0px;
   }
 
   @keyframes fadeInAnimation {
