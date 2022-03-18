@@ -7,9 +7,10 @@ function Project2() {
     <article className="project dark">
       <div className="project__main">
         <div data-aos="fade-right" className="project__left">
-          <h3 className="project__title project__titleDark">
+         <a href="https://competent-bardeen-b9ae59.netlify.app" className="prod_Anchor"> <h3 className="project__title project__titleDark">
             Suger Cosmetic Io
-          </h3>
+            
+          </h3></a>
           <p className="project__description project__body">
             An <span className="project__specialText">E-commerce</span> project
             for Women Makeup Kit 2022. Using a variety of commands you can Buy

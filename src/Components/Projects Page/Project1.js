@@ -10,7 +10,7 @@ function Project1({ id }) {
 
   return (
     <article id={id} className="project light">
-       <h2 className="project__header">Projects</h2>
+       <h2 className="project__header">Projects </h2>
       <div className="project__main">
         
         {isDesktopOrLaptop ? (
@@ -30,7 +30,7 @@ function Project1({ id }) {
         )}
 
         <div data-aos="fade-left" className="project__right">
-          <h3 className="project__title">Levi's in</h3>
+          <a href="https://leviwithbackend.herokuapp.com/" className="prod_Anchor"><h3 className="project__title">Levi's in</h3></a>
           <p className="project__description project__body">
             An <span className="project__specialText">E-commerce website </span> built to
             Buying Clothing items. Allows users to{" "}

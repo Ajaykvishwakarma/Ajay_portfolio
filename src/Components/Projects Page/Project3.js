@@ -18,7 +18,7 @@ function Project3() {
           loading="lazy"
         />
         <div data-aos="fade-left" className="project__right">
-          <h3 className="project__title">Levi's Clone </h3>
+         <a href = "https://levi-s-in.vercel.app/" className="prod_Anchor"> <h3 className="project__title">Levi's Clone </h3></a>
           <p className="project__description project__body">
             A <span className="project__specialText">Levi.in a clone. </span>The project
             for E-Commerce website 2022. Allows users to{" "}
