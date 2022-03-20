@@ -1,8 +1,9 @@
-import "./LightWave.css";
+import "./DarkWave.css";
 
-function LightWave() {
+function DarkWave() {
   return (
-    <div className="lightWave">
+     //Waves generated at https://www.shapedivider.app/
+    <div className="darkWave">
       <svg
         data-name="Layer 1"
         xmlns="http://www.w3.org/2000/svg"
@@ -10,9 +11,10 @@ function LightWave() {
         preserveAspectRatio="none"
       >
         <defs>
-          <linearGradient id="light" x1="0" y1="1" x2="2">
-            <stop stop-color="#b8c6db" />
-            <stop offset=".8" stop-color="#f5f7fa" />
+          <linearGradient id="dark" x1="0" y1="0" x2="1">
+            <stop stop-color="#121314" />
+            <stop offset=".59" stop-color="#22262b" />
+            <stop offset="1" stop-color="#31363b" />
           </linearGradient>
         </defs>
         <path
@@ -34,4 +36,4 @@ function LightWave() {
   );
 }
 
-export default LightWave;
+export default DarkWave;

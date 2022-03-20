@@ -27,6 +27,7 @@
     transition: all 1s ease-out;
     transform: translate(-11px, 15px);
     bottom: 10%;
+    margin-top: 100px;
   }
 
   .purpleArrows:hover {

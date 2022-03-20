@@ -1,10 +1,11 @@
 import { FaGithub } from "react-icons/fa";
-import DarkWave from "../Waves/DarkWave";
-import "./ProjectLight.css";
+import LightWave from "../Waves/LightWave";
+import { BiLinkExternal } from "react-icons/bi";
+import "./ProjectDark.css";
 
 function Project3() {
   return (
-    <article className="project light">
+    <article className="project dark">
      
       <div className="project__main">
         <img
@@ -18,7 +19,7 @@ function Project3() {
           loading="lazy"
         />
         <div data-aos="fade-left" className="project__right">
-         <a href = "https://levi-s-in.vercel.app/" className="prod_Anchor"> <h3 className="project__title">Levi's Clone </h3></a>
+         <a href = "https://levi-s-in.vercel.app/" target="_blank" rel="noopener noreferrer" className="prod_Anchor"> <h3 className="project__title" id="title">Levi's Clone </h3></a>
           <p className="project__description project__body">
             A <span className="project__specialText">Levi.in a clone. </span>The project
             for E-Commerce website 2022. Allows users to{" "}
@@ -30,6 +31,16 @@ function Project3() {
           <p className="project__tech project__body">
             &gt; HTML · CSS · JavaScript · Localhost · Google Map API
           </p>
+          <div className="linksDiv">
+          <a
+            className="project__sourceCode"
+            href="https://levi-s-in.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="=Website GitHub Repository"
+          >
+          <BiLinkExternal className="project__githubLogo" size={25} />
+          </a>
           <a
             className="project__sourceCode"
             href="https://github.com/Ajaykvishwakarma/levi-s.in"
@@ -38,11 +49,12 @@ function Project3() {
             aria-label="=Website GitHub Repository"
           >
             <FaGithub className="project__githubLogo" size={25} />
-            <h3 className="project__sourceCodeText">Source Code</h3>
+            {/* <h3 className="project__sourceCodeText">Source Code</h3> */}
           </a>
+          </div>
         </div>
       </div>
-      <DarkWave />
+      <LightWave />
     </article>
   );
 }

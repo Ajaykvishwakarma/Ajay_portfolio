@@ -6,15 +6,13 @@
   overflow: hidden;
   line-height: 0;
   transform: rotate(180deg);
-  
-  
 }
 
 .darkWave svg {
   position: relative;
   display: block;
   width: calc(100% + 1.3px);
-  height: 84px;
+  height: 82px;
   transform: rotateY(180deg);
 }
 

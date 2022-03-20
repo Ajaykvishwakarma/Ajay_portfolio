@@ -5,6 +5,7 @@ import Project3 from "./Project3";
 function Projects() {
   return (
     <section className="projects">
+      
       <Project1 id="project1" />
       <Project2 />
       <Project3 />

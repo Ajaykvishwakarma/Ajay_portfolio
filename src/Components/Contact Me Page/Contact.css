@@ -2,12 +2,8 @@
   display: flex;
   flex-direction: column;
   height: 66vh;
-  background: linear-gradient(
-    90deg,
-    rgba(18, 19, 20, 1) 0%,
-    rgba(34, 38, 43, 1) 59%,
-    rgba(49, 54, 59, 1) 100%
-  );
+  
+  background-image: linear-gradient(315deg, #cbd3e6 0%, #f5f7fa 74%);
   position: relative;
 }
 
@@ -19,7 +15,7 @@
 
 .contact__p {
   font-family: "Roboto", sans-serif;
-  color: white;
+  color: rgb(9, 8, 8);
   font-size: 20px;
   padding-bottom: 15px;
 }
@@ -32,7 +28,7 @@
 }
 
 .contact__text {
-  color: white;
+  color: rgb(9, 8, 8);
   text-decoration: underline;
   font-size: 30px;
 }
@@ -45,6 +41,8 @@
 @media only screen and (max-width: 768px) {
   .contact {
     align-items: center;
+    margin-top: 0%;
+    
   }
 
   .contact__heading {

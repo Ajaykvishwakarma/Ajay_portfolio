@@ -1,12 +1,18 @@
 .footer {
   height: 27.5vh;
   display: flex;
+   margin-top: -3%;
   flex-direction: column;
   align-items: center;
   overflow-x: hidden;
   font-family: "Roboto", sans-serif;
-  background-color: #f5f7f9;
-  background-image: linear-gradient(315deg, #dee3ee 0%, #f5f7fa 74%);
+  color: white;
+  background: linear-gradient(
+    90deg,
+    rgba(18, 19, 20, 1) 0%,
+    rgba(34, 38, 43, 1) 59%,
+    rgba(49, 54, 59, 1) 100%
+  );
 }
 
 .footer__copyright {

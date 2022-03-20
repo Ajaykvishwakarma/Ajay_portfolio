@@ -45,8 +45,10 @@
   .leftSocialMediaIcons {
     flex-direction: row;
     left: 50%;
-    bottom: 15%;
+    top:77%;
+    bottom: 20%;
     transform: translateX(-50%);
+    
   }
 
   .leftSocialMediaIcons__verticalBar {
