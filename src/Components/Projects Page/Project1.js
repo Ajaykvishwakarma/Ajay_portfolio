@@ -15,7 +15,7 @@ function Project1({ id }) {
 
     <article id={id} className="project dark" >
       
-       <h2 className="project__header">Projects </h2>
+       <h2 className="project__header">Top Projects </h2>
       <div className="project__main" >
 
       <img

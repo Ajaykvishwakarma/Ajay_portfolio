@@ -37,7 +37,7 @@ function About() {
         className="about__headshot"
         src="https://raw.githubusercontent.com/Ajaykvishwakarma/Portfolio_1/main/src/ajay_photo.png"
         alt="Brand Logo"
-        width="280"
+        width="340"
         height="350"
       />
       <LightWave />

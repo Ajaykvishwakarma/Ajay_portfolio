@@ -47,9 +47,10 @@
 
 
 import { FaGithub, FaLinkedin,  FaTwitter } from "react-icons/fa";
-import { SiRedux,SiMysql } from "react-icons/si";
-import {  DiJavascript,DiHtml5,DiCss3,DiJavascript1,DiJava,DiPython ,DiReact,DiNodejs,DiBootstrap,DiMongodb} from "react-icons/di";
+import { SiRedux,SiMysql, SiMaterialui } from "react-icons/si";
+import {  DiJavascript,DiHtml5,DiCss3,DiJavascript1,DiJava,DiPython ,DiReact,DiNodejs,DiBootstrap,DiMongodb,DiGithubBadge} from "react-icons/di";
 import "./Skills.css";
+
 // import LightWave from "../Waves/LightWave";
 import DarkWave from "./DarkWave";
 import "./ProjectLight.css";
@@ -79,6 +80,7 @@ function Skills() {
           <DiNodejs className="socialMediaIcons__github footer__icon" size={70} />
           <DiMongodb className="socialMediaIcons__github footer__icon" size={70} />
           
+          <DiGithubBadge className="socialMediaIcons__github footer__icon" size={70} />
          
           <SiMysql className="socialMediaIcons__github footer__icon" size={70} />
       
