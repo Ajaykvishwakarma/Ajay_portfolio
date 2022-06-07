@@ -38,7 +38,7 @@ function About() {
         src="https://raw.githubusercontent.com/Ajaykvishwakarma/Portfolio_1/main/src/ajay_photo.png"
         alt="Brand Logo"
         width="340"
-        height="350"
+        height="380"
       />
       <LightWave />
     </section>
